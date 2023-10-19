@@ -1,0 +1,30 @@
+{
+  "name": "backend-ecommerce",
+  "private": true,
+  "version": "0.1.2",
+  "description": "Backend ECommerce",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.14.5",
+    "@strapi/plugin-users-permissions": "4.14.5",
+    "@strapi/plugin-i18n": "4.14.5",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "Muhammad Ridwan Hakim"
+  },
+  "strapi": {
+    "uuid": "f5419da4-1483-4d55-af45-5433c082f13e"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
