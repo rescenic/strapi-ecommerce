@@ -435,6 +435,37 @@ export interface ApiOrderOrder extends Schema.CollectionType {
   };
 }
 
+export interface ApiPaymentCallbackPaymentCallback
+  extends Schema.CollectionType {
+  collectionName: 'payment_callbacks';
+  info: {
+    singularName: 'payment-callback';
+    pluralName: 'payment-callbacks';
+    displayName: 'PaymentCallback';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    history: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::payment-callback.payment-callback',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::payment-callback.payment-callback',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiProductProduct extends Schema.CollectionType {
   collectionName: 'products';
   info: {
@@ -838,6 +869,7 @@ declare module '@strapi/types' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'api::category.category': ApiCategoryCategory;
       'api::order.order': ApiOrderOrder;
+      'api::payment-callback.payment-callback': ApiPaymentCallbackPaymentCallback;
       'api::product.product': ApiProductProduct;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;

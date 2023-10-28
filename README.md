@@ -1,36 +1,16 @@
-# 🚀 Getting started with Strapi
+# fic9-ecommerce
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+#### Task 3 : Muhammad Ridwan Hakim, S.T.
 
-### `develop`
+## 💖 Dashboard Payment Callbacks
+![fic9-task3-payment-callbacks-1.png](docs/fic9-task3-payment-callbacks-1.png)<br>
+![fic9-task3-payment-callbacks-2.png](docs/fic9-task3-payment-callbacks-2.png)<br>
+![fic9-task3-payment-callbacks-3.png](docs/fic9-task3-payment-callbacks-3.png)<br>
+![fic9-task3-payment-callbacks-4.png](docs/fic9-task3-payment-callbacks-4.png)<br>
+![fic9-task3-payment-callbacks-5.png](docs/fic9-task3-payment-callbacks-5.png)<br>
+![fic9-task3-payment-callbacks-6.png](docs/fic9-task3-payment-callbacks-6.png)<br>
+![fic9-task3-payment-callbacks-7.png](docs/fic9-task3-payment-callbacks-7.png)<br>
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
 
 ## ⚙️ Deployment on localhost
 ![strapi-products.png](docs/strapi-products.png)<br>
